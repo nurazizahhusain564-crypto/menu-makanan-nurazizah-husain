@@ -1,0 +1,114 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fff3e0;
+}
+
+header {
+    background: #d35400;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+.container {
+    width: 90%;
+    max-width: 450px;
+    background: white;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.container h2 {
+    text-align: center;
+    color: #d35400;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+button {
+    width: 100%;
+    padding: 13px;
+    background: #e67e22;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    margin-top: 18px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ca6f1e;
+}
+
+.total {
+    background: #fff0dc;
+    padding: 15px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.total h2 {
+    color: #d35400;
+    margin-top: 10px;
+}
+
+.bayar {
+    background: #27ae60;
+}
+
+.bayar:hover {
+    background: #219150;
+}
+
+.struk {
+    margin-top: 20px;
+    padding: 15px;
+    background: #eafaf1;
+    border-radius: 8px;
+    display: none;
+    line-height: 1.8;
+}
+
+.kembali {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #d35400;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #555;
+}
+
